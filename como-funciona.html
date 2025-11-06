@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/diseño/estilos.css">
+    <title>Parcial#2</title>
+</head>
+<body>
+        <div id="Contenedor">
+                        <div class="header-wrap">
+                        <header id="header">
+                            <div class="title-wrap"><h1>Programación para IoT</h1></div>
+                        </header>
+                            <nav id="barra">
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="como-funciona.html">Como Funciona</a></li>
+                <li><a href="demostraciones.html">Demostracion</a></li>
+                <li><a href="seguridad.html">Seguridad</a></li>
+                <li><a href="Reseña.html">Reseña</a></li>
+                
+            </ul>
+           </nav>
+                </div>
+
+              <main id="body">
+             <div class="contenido">
+                <h2 class="titulo">¿Cómo Funciona?</h2>
+                <div class="contenido">
+               <div class="seccion-info">
+                <h3 class="subtitulo">Cómo funciona la IoT (Internet de las Cosas)</h3>
+                <p class="info">
+                    La Internet de las Cosas (IoT) funciona a través de una red de dispositivos físicos capaces de capturar información del entorno, transmitirla y procesarla para generar acciones o decisiones automáticas.
+                    Cada dispositivo combina hardware, software y conectividad, formando un ecosistema inteligente donde todo está interconectado.
+                </p>
+               </div>
+
+               <div class="seccion-info">
+                <h3 class="subtitulo">Captura de datos</h3>
+                <p class="info">
+                   Los sensores son los encargados de detectar cambios en el entorno: temperatura, humedad, movimiento, luz, presión, etc.
+                   Por ejemplo, un sensor DHT22 mide la temperatura y la humedad en una habitación.
+                   Los actuadores, por otro lado, ejecutan acciones a partir de esos datos: encender una lámpara, abrir una válvula o activar una alarma.
+
+                </p>
+
+               </div>
+               <div class="seccion-info">
+                <h3 class="subtitulo">Procesamiento local</h3>
+                <p class="info">
+                 Los datos capturados por los sensores llegan a un microcontrolador o placa IoT (como un ESP32, Arduino o Raspberry Pi).
+                 Este pequeño dispositivo interpreta la información mediante un programa escrito por el desarrollador, y puede:
+                 <ul>
+                        <li>Tomar decisiones locales (sin conexión a internet).</li>
+                        <li>Enviar los datos a la nube para su análisis remoto.</li>
+                 </ul>
+                
+                </div>
+
+                <div class="seccion-info">
+                <h3 class="subtitulo">Comunicación y transmisión de datos</h3>
+                <p class="info">
+                   Los dispositivos IoT necesitan enviar información a servidores o aplicaciones.
+                   Para eso usan distintos protocolos y tecnologías de red, como:
+
+                     <ul>
+                            <li>Wi-Fi: para conexiones de alta velocidad en áreas con cobertura.</li>
+                            <li>Bluetooth: para comunicación a corta distancia entre dispositivos.</li>
+                            <li>Zigbee o Z-Wave: protocolos de baja potencia para redes de sensores.</li>
+                            <li>LoRaWAN: para comunicación a larga distancia con bajo consumo energético.</li>
+                 
+                        </ul>
+
+                        Los datos se envían en formato digital (por ejemplo, JSON) mediante protocolos como:
+                    <ul>
+                            <li>MQTT: un protocolo ligero ideal para IoT.</li>
+                            <li>HTTP/HTTPS: para comunicación web estándar.</li>
+                    </ul>
+                     </p>
+                     
+                </div>      
+                
+                
+                 <div class="seccion-info">
+                <h3 class="subtitulo">Almacenamiento y análisis en la nube</h3>
+                <p class="info">
+                 Una vez transmitidos, los datos llegan a servidores o plataformas en la nube, donde se almacenan y analizan.
+                 Ahí pueden integrarse con bases de datos, paneles de control (dashboards) o sistemas de inteligencia artificial que detectan patrones.
+                
+                </p>
+                </div>
+
+                <div class="seccion-info">
+                <h3 class="subtitulo">Visualización y acción</h3>
+                <p class="info">
+                 Finalmente, los usuarios pueden ver los resultados en una aplicación web o móvil, y el sistema puede ejecutar acciones automáticas según las condiciones establecidas.
+                </p>
+                </div>
+            </div>
+
+           </main>
+
+           <footer id="footer">
+            <p>&copy; 2025 Programación para IoT — Conectando el mundo físico con el digital.</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
